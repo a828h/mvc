@@ -1,0 +1,20 @@
+[03-Jan-2019 17:53:56 UTC] Uncaught exception: 'Exception'Message: 'No route matched.'Stack trace:#0 /home/amir/projects/a2h/public/index.php(40): Core\Router->dispatch('/postsss')
+#1 {main}Thrown in '/home/amir/projects/a2h/Core/Router.php' on line 133
+[03-Jan-2019 18:04:47 UTC] Uncaught exception: 'Exception'Message: 'No route matched.'Stack trace:#0 /home/amir/projects/a2h/public/index.php(40): Core\Router->dispatch('/postsss')
+#1 {main}Thrown in '/home/amir/projects/a2h/Core/Router.php' on line 133
+[03-Jan-2019 18:05:16 UTC] Uncaught exception: 'Exception'Message: 'No route matched.'Stack trace:#0 /home/amir/projects/a2h/public/index.php(40): Core\Router->dispatch('/dd')
+#1 {main}Thrown in '/home/amir/projects/a2h/Core/Router.php' on line 133
+[03-Jan-2019 18:05:30 UTC] Uncaught exception: 'Exception'Message: 'No route matched.'Stack trace:#0 /home/amir/projects/a2h/public/index.php(40): Core\Router->dispatch('/dd')
+#1 {main}Thrown in '/home/amir/projects/a2h/Core/Router.php' on line 133
+[03-Jan-2019 18:10:13 UTC] Uncaught exception: 'ErrorException'Message: 'Array to string conversion'Stack trace:#0 /home/amir/projects/a2h/public/index.php(39): Core\Error::errorHandler(8, 'Array to string...', '/home/amir/proj...', 39, Array)
+#1 {main}Thrown in '/home/amir/projects/a2h/public/index.php' on line 39
+[03-Jan-2019 18:24:35 UTC] Uncaught exception: 'Error'Message: 'Class 'Core\View' not found'Stack trace:#0 [internal function]: App\Controllers\Home->indexAction()
+#1 /home/amir/projects/a2h/Core/Controller.php(48): call_user_func_array(Array, Array)
+#2 /home/amir/projects/a2h/Core/Router.php(122): Core\Controller->__call('index', Array)
+#3 /home/amir/projects/a2h/public/index.php(39): Core\Router->dispatch('')
+#4 {main}Thrown in '/home/amir/projects/a2h/App/Controllers/Home.php' on line 49
+[03-Jan-2019 18:25:03 UTC] Uncaught exception: 'Error'Message: 'Class 'Core\View' not found'Stack trace:#0 [internal function]: App\Controllers\Home->indexAction()
+#1 /home/amir/projects/a2h/Core/Controller.php(48): call_user_func_array(Array, Array)
+#2 /home/amir/projects/a2h/Core/Router.php(122): Core\Controller->__call('index', Array)
+#3 /home/amir/projects/a2h/public/index.php(39): Core\Router->dispatch('')
+#4 {main}Thrown in '/home/amir/projects/a2h/App/Controllers/Home.php' on line 49
